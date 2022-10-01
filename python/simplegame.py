@@ -19,7 +19,8 @@ while True:
 
     elif guess < number:
         print('\nGo a little higher\n')
+        break
 
     else:
         print("Right on! Well done!")
-        break
+      
